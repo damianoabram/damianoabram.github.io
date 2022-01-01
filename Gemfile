@@ -16,5 +16,5 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
-gem "kramdown-parser-gfm"
+#gem "kramdown-parser-gfm"
 #gem "github-pages", "~> 219", group: :jekyll_plugins
