@@ -1,0 +1,44 @@
+---
+---
+
+
+
+@inproceedings{RSA:ADST21,
+ abbr={CT-RSA},
+  author    = {Damiano Abram and
+               Ivan Damg{\aa}rd and
+               Peter Scholl and
+               Sven Trieflinger},
+  editor    = {Kenneth G. Paterson},
+  title     = {Oblivious {TLS} via Multi-party Computation},
+  booktitle = {Topics in Cryptology - {CT-RSA} 2021 - Cryptographers’ Track at the RSA Conference 2021.},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {12704},
+  pages     = {51--74},
+  publisher = {Springer},
+  year      = {2021},
+  url       = {https://doi.org/10.1007/978-3-030-75539-3\_3},
+  doi       = {10.1007/978-3-030-75539-3\_3},
+  timestamp = {Tue, 11 May 2021 14:54:39 +0200},
+  pdf    = {https://eprint.iacr.org/2021/318},
+  abstract ={In this paper, we describe Oblivious TLS: an MPC protocol that we prove UC secure against a majority of actively corrupted parties. The protocol securely implements TLS 1.3. Thus, any party $P$ who runs TLS can communicate securely with a set of servers running Oblivious TLS; $P$ does not need to modify anything, or even be aware that MPC is used.
+Applications of this include communication between servers who offer MPC services and clients, to allow the clients to easily and securely provide inputs or receive outputs. Also, an organization could use Oblivious TLS to improve in-house security while seamlessly connecting to external parties.
+Our protocol runs in the preprocessing model, and we did a preliminary non-optimized implementation of the on-line phase. In this version, the hand-shake completes in about 1 second. Performance of the record protocol depends, of course, on the encryption scheme used. We designed an MPC friendly scheme which achieved a throughput of about 300 KB/sec. Based on implementation results from other work, the standard AES-GCM can be expected to be as fast, although our implementation did not do as well.},
+}
+
+@inproceedings{PKC:AbrSch22,
+abbr={PKC},
+  author    = {Damiano Abram and
+               Peter Scholl},
+  editor    = {Goichiro Hanaoka},
+  title     = {{Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN}},
+ booktitle="Public-Key Cryptography -- PKC 2022.",
+  publisher = {Springer},
+  year      = {2022},
+  abstract={The SPDZ protocol for multi-party computation relies on a correlated randomness setup consisting of authenticated, multiplication triples. A recent line of work by Boyle et al. (Crypto 2019, Crypto 2020) has investigated the possibility of producing this correlated randomness in a silent preprocessing phase, which involves a ``small'' setup protocol with less communication than the total size of the triples being produced. These works do this using a tool called a pseudorandom correlation generator (PCG), which allows a large batch of correlated randomness to be compressed into a set of smaller, correlated seeds. However, existing methods for compressing SPDZ triples only apply to the 2-party setting.
+  In this work, we construct a PCG for producing SPDZ triples over large prime fields in the multi-party setting. The security of our PCG is based on the ring-LPN assumption over fields, similar to the work of Boyle et al. (Crypto 2020) in the 2-party setting. We also present a corresponding, actively secure setup protocol, which can be used to generate the PCG seeds and instantiate SPDZ with a silent preprocessing phase. As a building block, which may be of independent interest, we construct a new type of 3-party distributed point function supporting outputs over arbitrary groups (including large prime order), as well as an efficient protocol for setting up our DPF keys with active security.},
+}
+
+
+
+
