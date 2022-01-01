@@ -145,7 +145,7 @@ plugins:
   - jekyll-github-metadata
   - jekyll-imagemagick
   - jekyll-paginate-v2
-  - jekyll-scholar
+  - jekyll/scholar
   - jekyll-sitemap
   - jekyll-target-blank
   - jekyll-twitter-plugin
@@ -226,7 +226,6 @@ imagemagick:
   output_formats:
     webp: "-quality 75%"
 
-gems: ['jekyll/scholar']
 # -----------------------------------------------------------------------------
 # Jekyll Diagrams
 # -----------------------------------------------------------------------------
