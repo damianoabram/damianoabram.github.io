@@ -17,4 +17,4 @@ group :jekyll_plugins do
     gem 'webrick'
 end
 #gem "kramdown-parser-gfm"
-#gem "github-pages", "~> 219", group: :jekyll_plugins
+gem "github-pages", "~> 219", group: :jekyll_plugins
