@@ -26,20 +26,6 @@ Applications of this include communication between servers who offer MPC service
 Our protocol runs in the preprocessing model, and we did a preliminary non-optimized implementation of the on-line phase. In this version, the hand-shake completes in about 1 second. Performance of the record protocol depends, of course, on the encryption scheme used. We designed an MPC friendly scheme which achieved a throughput of about 300 KB/sec. Based on implementation results from other work, the standard AES-GCM can be expected to be as fast, although our implementation did not do as well.},
 }
 
-@inproceedings{PKC:AbrSch22,
-abbr={PKC},
-  author    = {Damiano Abram and
-               Peter Scholl},
-  editor    = {Goichiro Hanaoka},
-  title     = {{Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN}},
- booktitle="Public-Key Cryptography -- PKC 2022.",
-  publisher = {Springer},
-  year      = {2022},
-  abstract={The SPDZ protocol for multi-party computation relies on a correlated randomness setup consisting of authenticated, multiplication triples. A recent line of work by Boyle et al. (Crypto 2019, Crypto 2020) has investigated the possibility of producing this correlated randomness in a silent preprocessing phase, which involves a ``small'' setup protocol with less communication than the total size of the triples being produced. These works do this using a tool called a pseudorandom correlation generator (PCG), which allows a large batch of correlated randomness to be compressed into a set of smaller, correlated seeds. However, existing methods for compressing SPDZ triples only apply to the 2-party setting.
-  In this work, we construct a PCG for producing SPDZ triples over large prime fields in the multi-party setting. The security of our PCG is based on the ring-LPN assumption over fields, similar to the work of Boyle et al. (Crypto 2020) in the 2-party setting. We also present a corresponding, actively secure setup protocol, which can be used to generate the PCG seeds and instantiate SPDZ with a silent preprocessing phase. As a building block, which may be of independent interest, we construct a new type of 3-party distributed point function supporting outputs over arbitrary groups (including large prime order), as well as an efficient protocol for setting up our DPF keys with active security.},
-}
-
-
 @inproceedings{EC:AbrSchYak22,
 abbr = {EC},
   author    = {Damiano Abram and
@@ -54,5 +40,18 @@ In this paper, we describe how to generate any SRS or correlated randomness in s
 We introduce a general technique called an anti-rusher which compiles any one-round protocol with semi-malicious security without inputs to a similar one-round protocol with active security by making use of a programmable random oracle. This gets us actively secure distributed samplers and public-key PCFs in the random oracle model.
 Finally, we explore some tradeoffs. Our first PCF construction is limited to reverse-sampleable correlations (where the random outputs of honest parties must be simulatable given the random outputs of corrupt parties); we additionally show a different construction without this limitation, but which does not allow parties to hold secret parameters of the correlation.
 We also describe how to avoid the use of a random oracle at the cost of relying on sub-exponentially secure indistinguishability obfuscation.},
+}
+
+@inproceedings{PKC:AbrSch22,
+abbr={PKC},
+  author    = {Damiano Abram and
+               Peter Scholl},
+  editor    = {Goichiro Hanaoka},
+  title     = {{Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN}},
+ booktitle="Public-Key Cryptography -- PKC 2022.",
+  publisher = {Springer},
+  year      = {2022},
+  abstract={The SPDZ protocol for multi-party computation relies on a correlated randomness setup consisting of authenticated, multiplication triples. A recent line of work by Boyle et al. (Crypto 2019, Crypto 2020) has investigated the possibility of producing this correlated randomness in a silent preprocessing phase, which involves a ``small'' setup protocol with less communication than the total size of the triples being produced. These works do this using a tool called a pseudorandom correlation generator (PCG), which allows a large batch of correlated randomness to be compressed into a set of smaller, correlated seeds. However, existing methods for compressing SPDZ triples only apply to the 2-party setting.
+  In this work, we construct a PCG for producing SPDZ triples over large prime fields in the multi-party setting. The security of our PCG is based on the ring-LPN assumption over fields, similar to the work of Boyle et al. (Crypto 2020) in the 2-party setting. We also present a corresponding, actively secure setup protocol, which can be used to generate the PCG seeds and instantiate SPDZ with a silent preprocessing phase. As a building block, which may be of independent interest, we construct a new type of 3-party distributed point function supporting outputs over arbitrary groups (including large prime order), as well as an efficient protocol for setting up our DPF keys with active security.},
 }
 

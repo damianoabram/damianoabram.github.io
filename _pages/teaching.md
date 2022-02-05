@@ -3,7 +3,7 @@ layout: page
 permalink: /activities/
 title: teaching
 description:
-years: [2021, 2018]
+years: [2022, 2021, 2018]
 nav: true
 ---
 
