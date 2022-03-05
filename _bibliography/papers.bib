@@ -26,6 +26,20 @@ Applications of this include communication between servers who offer MPC service
 Our protocol runs in the preprocessing model, and we did a preliminary non-optimized implementation of the on-line phase. In this version, the hand-shake completes in about 1 second. Performance of the record protocol depends, of course, on the encryption scheme used. We designed an MPC friendly scheme which achieved a throughput of about 300 KB/sec. Based on implementation results from other work, the standard AES-GCM can be expected to be as fast, although our implementation did not do as well.},
 }
 
+@inproceedings{SP:ANOSS22,
+  abbr = {S&P},
+  author    = {Damiano Abram and Ariel Nof and Claudio Orlandi and
+               Peter Scholl and
+               Omer Shlomovits},
+  title     = {{Low-Bandwidth Threshold ECDSA via Pseudorandom Correlation Generators}},
+  booktitle="2022 IEEE Symposium on Security and Privacy",
+  publisher = {IEEE},
+  year      = {2022},
+  pdf= {https://eprint.iacr.org/2021/1587},
+  abstract={Digital signature schemes are a fundamental component of secure distributed systems, and the theft of a signing-key might have huge real-world repercussions e.g., in applications such as cryptocurrencies. Threshold signature schemes mitigate this problem by distributing shares of the secret key on several servers and requiring that enough of them interact to be able to compute a
+signature. In this paper, we provide a novel threshold protocol for ECDSA, arguably the most relevant signature scheme in practice. Our protocol is the first one where the communication complexity of the preprocessing phase is only logarithmic in the number of ECDSA signatures to be produced later, and it achieves therefore a so-called silent preprocessing. Our protocol achieves active security against any number of arbitrarily corrupted parties.},
+}
+
 @inproceedings{EC:AbrSchYak22,
 abbr = {EC},
   author    = {Damiano Abram and
@@ -54,4 +68,3 @@ abbr={PKC},
   abstract={The SPDZ protocol for multi-party computation relies on a correlated randomness setup consisting of authenticated, multiplication triples. A recent line of work by Boyle et al. (Crypto 2019, Crypto 2020) has investigated the possibility of producing this correlated randomness in a silent preprocessing phase, which involves a ``small'' setup protocol with less communication than the total size of the triples being produced. These works do this using a tool called a pseudorandom correlation generator (PCG), which allows a large batch of correlated randomness to be compressed into a set of smaller, correlated seeds. However, existing methods for compressing SPDZ triples only apply to the 2-party setting.
   In this work, we construct a PCG for producing SPDZ triples over large prime fields in the multi-party setting. The security of our PCG is based on the ring-LPN assumption over fields, similar to the work of Boyle et al. (Crypto 2020) in the 2-party setting. We also present a corresponding, actively secure setup protocol, which can be used to generate the PCG seeds and instantiate SPDZ with a silent preprocessing phase. As a building block, which may be of independent interest, we construct a new type of 3-party distributed point function supporting outputs over arbitrary groups (including large prime order), as well as an efficient protocol for setting up our DPF keys with active security.},
 }
-
