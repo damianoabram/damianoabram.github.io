@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2021-12-06
+date: 2022-05-21
 inline: true
 ---
 
-<em><b>Low-Bandwidth Threshold ECDSA via Pseudorandom Correlation Generators</b></em> is on [ePrint](https://eprint.iacr.org/2021/1587)!
+<em><b>An Algebraic Framework for Silent Preprocessing with Trustless Setup and Active Security</b></em> has been accepted at [CRYPTO 2022](https://crypto.iacr.org/2022/)!
