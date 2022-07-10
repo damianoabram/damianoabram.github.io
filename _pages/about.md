@@ -17,7 +17,7 @@ I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cr
 
 My research is focused on multiparty computation, more specifically, on secure generation of correlated randomness with minimal interaction.  Among the studied tools are <b>pseudorandom correlation generators</b> (PCGs), <b>pseudorandom correlation functions</b> (PCFs) and <b>distributed samplers</b>. I am also interested in related topics, such as indistinguishability obfuscation and homomorphic encryption.
 
-I am currently working as an intern at NTT Research under the supervision of [Mark Zhandry](https://www.cs.princeton.edu/~mzhandry/).
+I am currently working as an intern at NTT Research (USA) under the supervision of [Mark Zhandry](https://www.cs.princeton.edu/~mzhandry/).
 
 In 2020, I earned a <b>master's degree in mathematics</b> from the University of Trento (Italy), graduating with honours. The studies were focused on cryptography and coding theory. The master thesis, titled <em><b>Oblivious TLS via Multiparty Computation</b></em>, was supervised by Ivan Damgård, Sven Trieflinger and Roberto Zunino.
 
