@@ -15,11 +15,13 @@ social: false  # includes social icons at the bottom of the page
 
 I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cryptogroup/) </b> at <b>Aarhus University</b> (Denmark). I am supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/).
 
-My research is mainly focused on <b>pseudorandom correlation generators</b> (PCGs), <b>pseudorandom correlation functions</b> (PCFs) and related topics, such as indistinguishability obfuscation and homomorphic encryption.
+My research is mainly focused on <b>pseudorandom correlation generators</b> (PCGs), <b>pseudorandom correlation functions</b> (PCFs) <b>distributed samplers</b> and related topics, such as indistinguishability obfuscation and homomorphic encryption.
+
+I am currently working as an intern at NTT Research under the supervision of Mark Zhandry.
 
 In 2020, I earned a <b>master's degree in mathematics</b> from the University of Trento (Italy), graduating with honours. The studies were focused on cryptography and coding theory. The master thesis, titled <em><b>Oblivious TLS via Multiparty Computation</b></em>, was supervised by Ivan Damgård, Sven Trieflinger and Roberto Zunino.
 
-In 2017, I obtained a <b>bachelor's degree in mathematics</b> from the University of Padua (Italy), graduating with honours. The bachelor thesis, concerning a key-recovery attack on RSA, was supervised by Alberto Tonolo.
+In 2017, I obtained a <b>bachelor's degree in mathematics</b> from the University of Padova (Italy), graduating with honours. The bachelor thesis, concerning a key-recovery attack on RSA, was supervised by Alberto Tonolo.
 
 <!---
  Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
