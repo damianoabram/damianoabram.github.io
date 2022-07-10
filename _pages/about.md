@@ -15,7 +15,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cryptogroup/) </b> at <b>Aarhus University</b> (Denmark). I am supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/).
 
-My research is mainly focused on <b>pseudorandom correlation generators</b> (PCGs), <b>pseudorandom correlation functions</b> (PCFs) <b>distributed samplers</b> and related topics, such as indistinguishability obfuscation and homomorphic encryption.
+My research is mainly focused on multiparty computation, more specifically, on secure generation of correlated randomness with minimal interaction.  Among the studied tools are <b>pseudorandom correlation generators</b> (PCGs), <b>pseudorandom correlation functions</b> (PCFs) and <b>distributed samplers</b>. I am also interested in related topics, such as indistinguishability obfuscation and homomorphic encryption.
 
 I am currently working as an intern at NTT Research under the supervision of [Mark Zhandry](https://www.cs.princeton.edu/~mzhandry/).
 
