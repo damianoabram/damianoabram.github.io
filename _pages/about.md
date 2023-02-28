@@ -15,7 +15,7 @@ social: false  # includes social icons at the bottom of the page
 
 I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cryptogroup/) </b> at <b>Aarhus University</b> (since August 2020). I am supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/).
 
-My research focuses on <b>multiparty computation</b>. I often work on secure generation of correlated randomness with minimal interaction (<b>pseudorandom correlation generators</b> (PCGs), <b>pseudorandom correlation functions</b> (PCFs) and <b>distributed samplers</b>). I am also interested in the study of advanced cryptographic primitives, such as obfuscation and homomorphic encryption.
+My research focuses on <b>multiparty computation</b>. I often work on secure generation of correlated randomness with minimal interaction (pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs) and distributed samplers). I am also interested in the study of <b>advanced cryptographic primitives</b>, such as obfuscation and homomorphic encryption.
 
 From October 2022 to February 2023, I visited Yuval Ishai at Technion, Haifa.
 From June to August 2022, I worked as an intern at NTT Research (USA) under the supervision of [Mark Zhandry](https://www.cs.princeton.edu/~mzhandry/).
