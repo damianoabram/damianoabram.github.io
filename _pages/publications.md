@@ -15,7 +15,7 @@ nav: true
   </header>
 
   <article>
-  {% bibliography -f seminars %}
+  {% bibliography -f preprint %}
   </article>
   
   </div>
