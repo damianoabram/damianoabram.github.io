@@ -8,12 +8,12 @@ profile:
   align: right
   image: File3.jpg
 
-news: true  # includes a list of news items
+news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 
-I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cryptogroup/) </b> at <b>Aarhus University</b> (Denmark) (since August 2020). I am supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/).
+I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cryptogroup/) </b> at <b>Aarhus University</b> (since August 2020). I am supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/).
 
 My research focuses on <b>multiparty computation</b>. I often work on secure generation of correlated randomness with minimal interaction, studying tools such as <b>pseudorandom correlation generators</b> (PCGs), <b>pseudorandom correlation functions</b> (PCFs) and <b>distributed samplers</b>. I am also interested in the study of advanced cryptographic primitives, such as obfuscation and homomorphic encryption.
 
