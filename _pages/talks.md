@@ -24,7 +24,7 @@ nav: true
   </div>
 <div class="publications">
   <header class="post-header" style="margin-top:1.5cm;">
-    <h1 class="post-title">conference talks</h1>
+    <h1 class="post-title">conference talks and workshops</h1>
     <p class="post-description">{{ page.description }}</p>
   </header>
 </div>
