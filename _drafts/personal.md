@@ -1,18 +1,13 @@
 ---
 layout: page
-title: climbing
-description:
-img: assets/img/12.jpg
-importance: 1
-permalink: /personal/climbs/
+title: personal
+permalink: /personal/
 description:
 nav: true
 nav_order: 2
-display_categories: [climb]
+display_categories: [fun]
 horizontal: false
 ---
-
-I love climbing and bouldering, especially on real rock. Here is a list of places where I climbed.
 
 <!-- pages/personal.md -->
 <div class="projects">
@@ -61,4 +56,3 @@ I love climbing and bouldering, especially on real rock. Here is a list of place
   {%- endif -%}
 {%- endif -%}
 </div>
-

@@ -85,7 +85,27 @@ abbr={PKC},
   In this work, we construct a PCG for producing SPDZ triples over large prime fields in the multi-party setting. The security of our PCG is based on the ring-LPN assumption over fields, similar to the work of Boyle et al. (Crypto 2020) in the 2-party setting. We also present a corresponding, actively secure setup protocol, which can be used to generate the PCG seeds and instantiate SPDZ with a silent preprocessing phase. As a building block, which may be of independent interest, we construct a new type of 3-party distributed point function supporting outputs over arbitrary groups (including large prime order), as well as an efficient protocol for setting up our DPF keys with active security.},
 }
 
-@inproceedings{AbrWatZha23,
+
+@inproceedings{TCC:ABIKN23,
+  abbr = {TCC},
+  author    = {Damiano Abram and Amos Beimel and Yuval Ishai and Eyal Kushilevits and Varun Narayanan},
+  title     = {{Cryptography from Planted Graphs: Security with Logarithmic-Size Messages}},
+   booktitle="Theory of Cryptography Conference -- TCC 2023.",
+  publisher = {Springer},
+  year      = {2023},
+  abstract={We tackle the following broad question about cryptographic primitives: is it possible to achieve security against arbitrary <em>poly(n)</em> circuit-size adversaries with <em>O(log n)</em> size messages? It is common knowledge that the answer is  unless information-theoretic security is possible. In this work, we revisit this question by considering the setting of cryptography with public information and computational security.
+Our main results include the following:<br>
+<p style="margin-left: 25px;">
+1. For the task of constructing protocols in the Private Simultaneous Message (PSM) model. We show that <em>O(log n)</em> bits suffice if we allow public information and computational security.</p>
+<p style="margin-left: 25px;">
+2. For the task of 3-party MPC, where 2 parties have inputs and the third party receive the output, we present a protocol with an offline stage that produces shared randomness for the input parties and public information, followed by a one-round protocol after receiving the input (a single message from each input party to the output party) with very short, i.e. <em>O(log n)</em> bits, online communication. Previously known solutions (even allowing correlated randomness) used at least two rounds of communication.</p>
+<p style="margin-left: 25px;">
+3. For the task of constructing so-called  Forbidden Graph Secret-Sharing, the best known computational scheme without public information has share size <em>poly(n)</em> (assuming one-way functions). We present a computational Forbidden Graph Secret-Sharing scheme with public information and share size of only <em>O(log n)</em>. On the negative side, we show that computational threshold secret-sharing schemes even with public information require share size <em>\Omega(log log n)</em>.</p><p>
+Our constructions are based on the conjectured hardness of variants of the planted clique problem, that was extensively studied in the Complexity Theory and Statistical Inference communications but was less commonly used in Crypto. We believe that such conjectures have the potential of finding other cryptographic applications.</p>},
+}
+
+
+@inproceedings{C:AbrWatZha23,
   abbr = {C},
   author    = {Damiano Abram and Brent Waters and Mark Zhandry},
   title     = {{Security-Preserving Distributed Samplers: How to Generate any CRS in One Round without Random Oracles}},

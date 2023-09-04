@@ -1,15 +1,29 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
+title: via della soddisfazione - cima d'ambiez - dolomiti di brenta
+description:
 img: assets/img/3.jpg
-importance: 2
-category: work
+importance: 1
+category: climbs
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+On the 24th June 2018 with my friend Francesco. One of the craziest experiences in my life, but also a very fun one.
+
+There is a fundamental rule in the mountains: wake up early. The weather is more stable in the morning. The longer we remain on the wall in the afternoon, the higher are the chances of being caught in a storm, surrounded by lightnings that are more than happy to hit us, if we make their way to the ground easier. Being high up on a mountain with a lot of metallic equipement, this is not so unlikely. So, around 6 a.m., we were in San Lorenzo Dorsino, ready to take the old Land Rover Defender taxi, full with other sleepy alpinists, that would have taken us up the wavy dirt road of Val d'Ambiez. The driver left us at Rifugio Cacciatore with the promise of meeting again at 4 p.m. for the ride home. From Rifugio Cacciatore, we hiked up other 800m with our ropes on the shoulders, until we reached the base of the beautiful 400m wall of Cima d'Ambiez, made of one of the best and most compact rock in the dolomites. We would have climbed a route called [Via della Soddisfazione](https://www.sassbaloss.com/pagine/uscite/cimaambiez2/cimaambiez2.htm), UIAA VI, no bolts, a few pegs here and there, for the rest we would have had to rely on nuts and cams. Since I don't know how to use this gear, Francesco would have climbed first, placing all the protections. I would have followed soon after retrieving all the gear he had jammed in the cracks and the other features of the wall.
+
+The beginning was quite promising, no clouds in the sky, a gentle sun warming up our skin, beautiful cliffs and amazing climb. Around 10 a.m., the renowned white mists of Val d'Ambiez slowly made their appearance. Although we had to give up on the nice sun, we were still excited: when the fog rises, mountains become even more beautiful and mysterious. Their shape keeps mutating, providing glimpses of a reality inaccessible on clear, sunny days. With our minds captured by those views, we continued our climb.  The rock slowly acquired a reddish shade and even the shape of the holds changed: in thousands of years, the water dripping from the wall has dug many tiny vertical holes the size of a finger tip. Climbing on such features is always a joy!
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/cimadambiez.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The wall of Cima d'Ambiez. Via della Soddisfazione is marked in pink.
+</div>
+
+
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
