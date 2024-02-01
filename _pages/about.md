@@ -6,7 +6,7 @@ description:
 subtitle: <a href="mailto:damiano.abram@cs.au.dk" title="email"><i class="fas fa-envelope"></i></a> damiano.abram@cs.au.dk
 profile:
   align: right
-  image: mypic.jpg
+  image: prof_pic.jpg
 
 news: false  # includes a list of news items
 latest_posts: false
