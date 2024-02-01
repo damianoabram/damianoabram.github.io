@@ -9,6 +9,7 @@ profile:
   image: mypic.jpg
 
 news: false  # includes a list of news items
+latest_posts: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
@@ -23,9 +24,4 @@ From June to August 2022, I worked as an intern at NTT Research (USA) under the 
 In 2020, I earned a <b>master's degree in mathematics</b> from the University of Trento (Italy), graduating with honours. The studies were focused on cryptography and coding theory. The master thesis, titled <em><b>Oblivious TLS via Multiparty Computation</b></em>, was supervised by Ivan Damgård, Sven Trieflinger and Roberto Zunino.
 
 In 2017, I obtained a <b>bachelor's degree in mathematics</b> from the University of Padova (Italy), graduating with honours. The bachelor thesis, concerning Wiener's attack against RSA, was supervised by Alberto Tonolo.
-
-<!---
- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-# Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 

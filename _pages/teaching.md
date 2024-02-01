@@ -5,6 +5,7 @@ title: teaching
 description:
 years: [2022, 2021, 2018]
 nav: true
+nav_order: 4
 ---
 
 <article>
