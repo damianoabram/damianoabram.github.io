@@ -27,6 +27,6 @@ nav_order: 2
 
   <article>
   <div class="publications">
-  {% bibliography -f preprint %}
+  {% bibliography -f preprints %}
 </div>
   </article>
