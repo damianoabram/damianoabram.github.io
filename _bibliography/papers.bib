@@ -118,14 +118,6 @@ Our constructions are based on the conjectured hardness of variants of the plant
 In this work, we provide new definitions for distributed samplers which we show achieve meaningful security guarantees in the standard model. In particular, our notion implies that the hardness of a wide range of security games is preserved when the CRS is replaced with a distributed sampler. We also show how to realize our notion of distributed samplers. A core technical tool enabling our construction is a new notion of single-message zero knowledge.},
 }
 
-@inproceedings{AbrObrSch23,
-  abbr = {ePrint},
-  author    = {Damiano Abram and Maciej Obremski and Peter Scholl},
-  title     = {{On the (Im)possibility of Distributed Samplers: Lower Bounds and Party-Dynamic Constructions}},
-  pdf    = {https://eprint.iacr.org/2023/863},
-  abstract={Distributed samplers, recently introduced by Abram, Scholl and Yakoubov (Eurocrypt '22), are a one-round, multi-party protocol for securely sampling from any distribution. We give new lower and upper bounds for constructing distributed samplers in challenging scenarios. First, we consider the feasibility of distributed samplers with a malicious adversary in the standard model; the only previous construction in this setting relies on a random oracle. We show that for any UC-secure construction in the standard model, even with a CRS, the output of the sampling protocol must have low entropy. This essentially implies that this type of construction is useless in applications.
-Secondly, we study the question of building distributed samplers in the party-dynamic setting, where parties can join in an ad-hoc manner, and the total number of parties is unbounded. Here, we obtain positive results. First, we build a special type of unbounded universal sampler, which after a trusted setup, allows sampling from any distributed with unbounded size. Our construction is in the shared randomness model, where the parties have access to a shared random string, and uses indistinguishability obfuscation and somewhere statistically binding hashing. Next, using our unbounded universal sampler, we construct distributed universal samplers in the party-dynamic setting. Our first construction satisfies one-time selective security in the shared randomness model. Our second construction is reusable and secure against a malicious adversary in the random oracle model. Finally, we show how to use party-dynamic, distributed universal samplers to produce ideal, correlated randomness in the party-dynamic setting, in a single round of interaction.},
-}
 
 @inproceedings{EC:ADIN24,
   abbr = {EC},
