@@ -3,8 +3,6 @@ layout: page
 permalink: /talks/
 title: talks
 description: 
-years: [2023, 2022, 2021]
-yearsp: [2023, 2022, 2021]
 nav: true
 nav_order: 3
 ---
@@ -15,11 +13,7 @@ nav_order: 3
   </header>
 
   <article>
-
-{% for y in page.yearsp %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f seminars -q @*[year={{y}}]* %}
-{% endfor %}
+  {% bibliography -f seminars %}
   </article>
   
   </div>
@@ -32,10 +26,7 @@ nav_order: 3
 
   <article>
   <div class="publications">
-    {% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f conferences -q @*[year={{y}}]* %}
-{% endfor %}
+  {% bibliography -f conferences %}
 </div>
   </article>
 

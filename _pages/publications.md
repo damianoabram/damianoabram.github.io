@@ -3,8 +3,6 @@ layout: page
 permalink: /publications/
 title: publications
 description: 
-years: [2024, 2023, 2022, 2021]
-#yearsp: [2022]
 nav: true
 nav_order: 2
 ---
@@ -20,6 +18,8 @@ nav_order: 2
   </article>
   
   </div>
+
+
 <div class="publications">
   <header class="post-header" style="margin-top:1.5cm;">
     <h1 class="post-title"> peer-reviewed publications</h1>
@@ -29,9 +29,6 @@ nav_order: 2
 
   <article>
   <div class="publications">
-{% for y in page.years %}
-  <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
-{% endfor %}
+  {% bibliography -f papers %}
 </div>
   </article>
