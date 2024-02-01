@@ -119,24 +119,4 @@ In this work, we provide new definitions for distributed samplers which we show 
 }
 
 
-@inproceedings{EC:ADIN24,
-  abbr = {EC},
-  author    = {Damiano Abram and Jack Doerner and Yuval Ishai and Varun Narayanan},
-  title     = {{Constant-Round Simulation-Secure Coin Tossing Extention with Guaranteed Output}},
-   booktitle="EUROCRYPT 2024.",
-  publisher = {Springer},
-  year      = {2024},
-  abstract={Common randomness is an essential resource in many applications. However, a celebrated result of Cleve (STOC 86) rules out the possibility of tossing a fair coin from scratch in the presence of a dishonest majority. A second-best alternative is a Coin Tossing Extension (CTE) protocol, which uses an “online” oracle that produces a small number of common random bits to generate a large number of common random-looking bits. This work initiates the systematic study of fully-secure CTE, which guarantees output even in the presence of malicious behavior. A fully-secure two-party statistical CTE protocol with black-box simulation was implicit in Hofheinz et al. (Eurocrypt 06), but its round complexity is nearly linear in its output length. The problem of
-constant-round CTE with superlogarithmic stretch remained open.
-We prove that any statistical CTE with full black-box security and superlogarithmic stretch must have superconstant rounds. To circumvent this impossibility we investigate fully-secure computational CTE, and prove that with <em>N</em> parties and any polynomial stretch:<br>
-<p style="margin-left: 25px;">
-1. One round suffices for CTE under subexponential LWE, even with Universally Composable security against adaptive corruptions.</p>
-<p style="margin-left: 25px;">
-2. One-round CTE is implied by DDH or the hidden subgroup assumption in class groups, with a short, reusable Uniform Random String, and by both DCR and QR, with a reusable Structured Reference String.</p>
-<p style="margin-left: 25px;">
-3. One-way functions imply CTE with <em>O(N)</em> rounds, and thus constant-round CTE for any constant number of parties.</p>
-<p>Such results were not known even in the two-party setting with standalone, static security. Furthermore, we extend one-round CTE to sample from any efficient distribution, via strong assumptions that include indistinguishability obfuscation.
-Our one-round CTE protocols can be interpreted as explainable variants of classical randomness extractors, wherein a (short) seed and a source instance can be efficiently reverse-sampled given a random output. Such explainable extractors may be of independent interest.</p>},
-}
-
 
