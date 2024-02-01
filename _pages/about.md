@@ -18,7 +18,7 @@ I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cr
 My research focuses on <b>multiparty computation</b>. I often work on secure generation of correlated randomness with minimal interaction (pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs) and distributed samplers). I am also interested in the study of <b>advanced cryptographic primitives</b>, such as obfuscation and homomorphic encryption.
 
 From October 2022 to February 2023, I visited [Yuval Ishai](https://www.cs.technion.ac.il/~yuvali/) at Technion, Haifa.
-From June to August 2022, I worked as an intern at NTT Research (USA) under the supervision of [Mark Zhandry](https://www.cs.princeton.edu/~mzhandry/).
+From June to August 2022, I worked as an intern at NTT Research (USA) under the supervision of [Mark Zhandry](https://mzhandry.github.io/).
 
 In 2020, I earned a <b>master's degree in mathematics</b> from the University of Trento (Italy), graduating with honours. The studies were focused on cryptography and coding theory. The master thesis, titled <em><b>Oblivious TLS via Multiparty Computation</b></em>, was supervised by Ivan Damgård, Sven Trieflinger and Roberto Zunino.
 
