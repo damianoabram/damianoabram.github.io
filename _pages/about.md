@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: <a href="mailto:damiano.abram@cs.au.dk" title="email"><i class="fas fa-envelope"></i></a> damiano.abram@cs.au.dk
+description: <p><a href="mailto:damiano.abram@cs.au.dk" title="email"><i class="fas fa-envelope"></i></a> damiano.abram@cs.au.dk</p>
 
 profile:
   align: right
