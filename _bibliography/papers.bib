@@ -140,19 +140,3 @@ Our one-round CTE protocols can be interpreted as explainable variants of classi
 }
 
 
-@inproceedings{EC:AbrRoySch24,
-  abbr = {EC},
-  author    = {Damiano Abram and Lawrence Roy and Peter Scholl},
-  title     = {{Succinct Homomorphic Secret Sharing}},
-   booktitle="EUROCRYPT 2024.",
-  publisher = {Springer},
-  year      = {2024},
-  abstract={This work introduces homomorphic secret sharing (HSS) with succinct share size. In HSS, private inputs are shared between parties, who can then homomorphically evaluate a function on their shares, obtaining a share of the function output. In succinct HSS, a portion of the inputs from one party can be distributed using shares whose size is sublinear in the number of such inputs. The parties can then locally evaluate a function <em>f</em> on the shares, with the restriction that <em>f</em> must be linear in the succinctly shared inputs.
-We construct succinct, two-party HSS for branching programs, based on either the decisional composite residuosity assumption, a DDH-like assumption in class groups, or learning with errors with a superpolynomial modulus-to-noise ratio. We then give several applications of succinct HSS, which were only previously known using fully homomorphic encryption, or stronger tools:<br>
-<p style="margin-left: 25px;">
-1. <b>Succinct vector oblivious linear evaluation (VOLE):</b> Two parties can obtain secret shares of a long, arbitrary vector <em><b>x</b></em>, multiplied by a scalar <em>\Delta</em>, with communication sublinear in the size of the vector.</p>
-<p style="margin-left: 25px;">
-2. <b>Batch, multi-party distributed point functions:</b> A protocol for distributing a batch of secret, random point functions among <em>N</em> parties, for any polynomial <em>N</em>, with communication sublinear in the number of DPFs.</p>
-<p style="margin-left: 25px;">
-3. <b>Sublinear MPC for any number of parties:</b> Two new constructions of MPC with sublinear communication complexity, with <em>N</em> parties for any polynomial <em>N</em>: (a) For general Boolean circuits of size <em>s</em>, with communication <em>O(N s/ log log s)</em>, and (b) For layered, sufficiently wide Boolean circuits, with communication <em>O(N s/ log s)</em>.</p>},
-}
