@@ -11,7 +11,7 @@ profile:
 news: false  # includes a list of news items
 latest_posts: false
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: false  # includes social icons at the bottom of the page
+social: true  # includes social icons at the bottom of the page
 ---
 
 I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cryptogroup/) </b> at <b>Aarhus University</b> (since August 2020). I am supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/).
