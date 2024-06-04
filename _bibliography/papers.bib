@@ -3,98 +3,73 @@
 
 
 
-@inproceedings{RSA:ADST21,
- abbr={CT-RSA},
-  author    = {Damiano Abram and
-               Ivan Damg{\aa}rd and
-               Peter Scholl and
-               Sven Trieflinger},
-  editor    = {Kenneth G. Paterson},
-  title     = {Oblivious {TLS} via Multi-party Computation},
-  booktitle = {Topics in Cryptology - {CT-RSA} 2021 - Cryptographers’ Track at the RSA Conference 2021},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {12704},
-  pages     = {51--74},
-  publisher = {Springer},
-  year      = {2021},
-  url       = {https://doi.org/10.1007/978-3-030-75539-3\_3},
-  doi       = {10.1007/978-3-030-75539-3\_3},
-  timestamp = {Tue, 11 May 2021 14:54:39 +0200},
-  pdf    = {https://eprint.iacr.org/2021/318},
-  abstract ={In this paper, we describe Oblivious TLS: an MPC protocol that we prove UC secure against a majority of actively corrupted parties. The protocol securely implements TLS 1.3. Thus, any party $P$ who runs TLS can communicate securely with a set of servers running Oblivious TLS; $P$ does not need to modify anything, or even be aware that MPC is used.
+@inproceedings{ADST21,
+  abbr		= {CT-RSA},
+  author    	= {Damiano Abram and Ivan Damg{\aa}rd and Peter Scholl and Sven Trieflinger},
+  title     	= {Oblivious {TLS} via Multi-party Computation},
+  booktitle 	= {Topics in Cryptology - {CT-RSA} 2021 - Cryptographers’ Track at the RSA Conference 2021},
+  year      	= {2021},
+  pdf    	= {https://eprint.iacr.org/2021/318},
+  abstract 	= {In this paper, we describe Oblivious TLS: an MPC protocol that we prove UC secure against a majority of actively corrupted parties. The protocol securely implements TLS 1.3. Thus, any party P who runs TLS can communicate securely with a set of servers running Oblivious TLS; $P$ does not need to modify anything, or even be aware that MPC is used.
 Applications of this include communication between servers who offer MPC services and clients, to allow the clients to easily and securely provide inputs or receive outputs. Also, an organization could use Oblivious TLS to improve in-house security while seamlessly connecting to external parties.
-Our protocol runs in the preprocessing model, and we did a preliminary non-optimized implementation of the on-line phase. In this version, the hand-shake completes in about 1 second. Performance of the record protocol depends, of course, on the encryption scheme used. We designed an MPC friendly scheme which achieved a throughput of about 300 KB/sec. Based on implementation results from other work, the standard AES-GCM can be expected to be as fast, although our implementation did not do as well.},
+Our protocol runs in the preprocessing model, and we did a preliminary non-optimized implementation of the on-line phase. In this version, the hand-shake completes in about 1 second. Performance of the record protocol depends, of course, on the encryption scheme used. We designed an MPC friendly scheme which achieved a throughput of about 300 KB/sec. Based on implementation results from other work, the standard AES-GCM can be expected to be as fast, although our implementation did not do as well.}
 }
 
-@inproceedings{C:ADOS22,
-  abbr = {C},
-  author    = {Damiano Abram and Ivan Damg{\aa}rd and Claudio Orlandi and
-               Peter Scholl},
-  title     = {{An Algebraic Framework for Silent Preprocessing with Trustless Setup and Active Security}},
-  booktitle="CRYPTO 2022",
-  publisher = {Springer},
-  year      = {2022},
-  pdf    = {https://eprint.iacr.org/2022/363},
-  abstract={Recently, number-theoretic assumptions including DDH, DCR and QR have been used to build powerful tools for secure computation, in the form of homomorphic secret-sharing (HSS), which leads to secure two-party computation protocols with succinct communication, and pseudorandom correlation functions (PCFs), which allow non-interactive generation of a large quantity of correlated randomness. In this work, we present a group-theoretic framework for these classes of constructions, which unifies their approach to computing distributed discrete logarithms in various groups. We cast existing constructions in our framework, and also present new constructions, including one based on class groups of imaginary quadratic fields. This leads to the first construction of two-
-party homomorphic secret sharing for branching programs from class group assumptions. Using our framework, we also obtain pseudorandom correlation functions for generating oblivious transfer and vector-OLE correlations from number-theoretic assumptions. These have a trustless, public-key setup when instantiating our framework using class groups. Previously, such constructions either needed a trusted setup in the form of an RSA modulus with unknown factorisation, or relied on multi-key fully homomorphic encryption from the learning with errors assumption. We also show how to upgrade our constructions to achieve active security using appropriate zero-knowledge proofs. In the random oracle model, this leads to a one-round, actively secure protocol for setting up the PCF, as well as a 3-round, actively secure HSS-based protocol for secure two-party computation of branching programs with succinct communication.},
+@inproceedings{ADOS22,
+  abbr 	= {C},
+  author    	= {Damiano Abram and Ivan Damg{\aa}rd and Claudio Orlandi and Peter Scholl},
+  title     	= {{An Algebraic Framework for Silent Preprocessing with Trustless Setup and Active Security}},
+  booktitle	= {{CRYPTO} 2022},
+  year      	= {2022},
+  pdf    	= {https://eprint.iacr.org/2022/363},
+  abstract	= {Recently, number-theoretic assumptions including DDH, DCR and QR have been used to build powerful tools for secure computation, in the form of homomorphic secret-sharing (HSS), which leads to secure two-party computation protocols with succinct communication, and pseudorandom correlation functions (PCFs), which allow non-interactive generation of a large quantity of correlated randomness. In this work, we present a group-theoretic framework for these classes of constructions, which unifies their approach to computing distributed discrete logarithms in various groups. We cast existing constructions in our framework, and also present new constructions, including one based on class groups of imaginary quadratic fields. This leads to the first construction of two-party homomorphic secret sharing for branching programs from class group assumptions. Using our framework, we also obtain pseudorandom correlation functions for generating oblivious transfer and vector-OLE correlations from number-theoretic assumptions. These have a trustless, public-key setup when instantiating our framework using class groups. Previously, such constructions either needed a trusted setup in the form of an RSA modulus with unknown factorisation, or relied on multi-key fully homomorphic encryption from the learning with errors assumption. We also show how to upgrade our constructions to achieve active security using appropriate zero-knowledge proofs. In the random oracle model, this leads to a one-round, actively secure protocol for setting up the PCF, as well as a 3-round, actively secure HSS-based protocol for secure two-party computation of branching programs with succinct communication.}
 }
 
 
-@inproceedings{SP:ANOSS22,
-  abbr = {S&P},
-  author    = {Damiano Abram and Ariel Nof and Claudio Orlandi and
-               Peter Scholl and
-               Omer Shlomovits},
-  title     = {{Low-Bandwidth Threshold ECDSA via Pseudorandom Correlation Generators}},
-  booktitle="2022 IEEE Symposium on Security and Privacy",
-  publisher = {IEEE},
-  year      = {2022},
-  pdf= {https://eprint.iacr.org/2021/1587},
-  abstract={Digital signature schemes are a fundamental component of secure distributed systems, and the theft of a signing-key might have huge real-world repercussions e.g., in applications such as cryptocurrencies. Threshold signature schemes mitigate this problem by distributing shares of the secret key on several servers and requiring that enough of them interact to be able to compute a
-signature. In this paper, we provide a novel threshold protocol for ECDSA, arguably the most relevant signature scheme in practice. Our protocol is the first one where the communication complexity of the preprocessing phase is only logarithmic in the number of ECDSA signatures to be produced later, and it achieves therefore a so-called silent preprocessing. Our protocol achieves active security against any number of arbitrarily corrupted parties.},
+@inproceedings{ANOSS22,
+  abbr 	= {S&P},
+  author    	= {Damiano Abram and Ariel Nof and Claudio Orlandi and Peter Scholl and Omer Shlomovits},
+  title     	= {{Low-Bandwidth Threshold ECDSA via Pseudorandom Correlation Generators}},
+  booktitle	= {{2022 IEEE Symposium on Security and Privacy}},
+  year      	= {2022},
+  pdf		= {https://eprint.iacr.org/2021/1587},
+  abstract	= {Digital signature schemes are a fundamental component of secure distributed systems, and the theft of a signing-key might have huge real-world repercussions e.g., in applications such as cryptocurrencies. Threshold signature schemes mitigate this problem by distributing shares of the secret key on several servers and requiring that enough of them interact to be able to compute a signature. In this paper, we provide a novel threshold protocol for ECDSA, arguably the most relevant signature scheme in practice. Our protocol is the first one where the communication complexity of the preprocessing phase is only logarithmic in the number of ECDSA signatures to be produced later, and it achieves therefore a so-called silent preprocessing. Our protocol achieves active security against any number of arbitrarily corrupted parties.}
 }
 
-@inproceedings{EC:AbrSchYak22,
-abbr = {EC},
-  author    = {Damiano Abram and
-               Peter Scholl and
-               Sophia Yakoubov},
-  title     = {{Distributed (Correlation) Samplers: How to Remove a Trusted Dealer in One Round}},
-  booktitle="EUROCRYPT 2022",
-  publisher = {Springer},
-  year      = {2022},
-  pdf    = {https://eprint.iacr.org/2022/535},
-  abstract={Structured random strings (SRSs) and correlated randomness are important for many cryptographic protocols. In settings where interaction is expensive, it is desirable to obtain such randomness in as few rounds of communication as possible; ideally, simply by exchanging one reusable round of messages which can be considered public keys.
+@inproceedings{AbrSchYak22,
+  abbr 	= {EC},
+  author    	= {Damiano Abram and Peter Scholl and Sophia Yakoubov},
+  title     	= {{Distributed (Correlation) Samplers: How to Remove a Trusted Dealer in One Round}},
+  booktitle	= {{EUROCRYPT 2022}},
+  year      	= {2022},
+  pdf    	= {https://eprint.iacr.org/2022/535},
+  abstract	= {Structured random strings (SRSs) and correlated randomness are important for many cryptographic protocols. In settings where interaction is expensive, it is desirable to obtain such randomness in as few rounds of communication as possible; ideally, simply by exchanging one reusable round of messages which can be considered public keys.
 In this paper, we describe how to generate any SRS or correlated randomness in such a single round of communication, using, among other things, indistinguishable obfuscation. We introduce what we call a distributed sampler, which enables n parties to sample a single public value (SRS) from any distribution. We construct a semi-malicious distributed sampler in the plain model, and use it to build a semi-malicious publickey PCF (Boyle et al., FOCS 2020) in the plain model. A public-key PCF can be thought of as a distributed correlation sampler; instead of producing a public SRS, it gives each party a private random value (where the values satisfy some correlation).
 We introduce a general technique called an anti-rusher which compiles any one-round protocol with semi-malicious security without inputs to a similar one-round protocol with active security by making use of a programmable random oracle. This gets us actively secure distributed samplers and public-key PCFs in the random oracle model.
 Finally, we explore some tradeoffs. Our first PCF construction is limited to reverse-sampleable correlations (where the random outputs of honest parties must be simulatable given the random outputs of corrupt parties); we additionally show a different construction without this limitation, but which does not allow parties to hold secret parameters of the correlation.
-We also describe how to avoid the use of a random oracle at the cost of relying on sub-exponentially secure indistinguishability obfuscation.},
+We also describe how to avoid the use of a random oracle at the cost of relying on sub-exponentially secure indistinguishability obfuscation.}
 }
 
-@inproceedings{PKC:AbrSch22,
-abbr={PKC},
-  author    = {Damiano Abram and
-               Peter Scholl},
-  editor    = {Goichiro Hanaoka},
-  title     = {{Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN}},
- booktitle="Public-Key Cryptography -- PKC 2022",
-  publisher = {Springer},
-  year      = {2022},
-    pdf= {https://eprint.iacr.org/2022/315},
-  abstract={The SPDZ protocol for multi-party computation relies on a correlated randomness setup consisting of authenticated, multiplication triples. A recent line of work by Boyle et al. (Crypto 2019, Crypto 2020) has investigated the possibility of producing this correlated randomness in a silent preprocessing phase, which involves a ``small'' setup protocol with less communication than the total size of the triples being produced. These works do this using a tool called a pseudorandom correlation generator (PCG), which allows a large batch of correlated randomness to be compressed into a set of smaller, correlated seeds. However, existing methods for compressing SPDZ triples only apply to the 2-party setting.
-  In this work, we construct a PCG for producing SPDZ triples over large prime fields in the multi-party setting. The security of our PCG is based on the ring-LPN assumption over fields, similar to the work of Boyle et al. (Crypto 2020) in the 2-party setting. We also present a corresponding, actively secure setup protocol, which can be used to generate the PCG seeds and instantiate SPDZ with a silent preprocessing phase. As a building block, which may be of independent interest, we construct a new type of 3-party distributed point function supporting outputs over arbitrary groups (including large prime order), as well as an efficient protocol for setting up our DPF keys with active security.},
+@inproceedings{AbrSch22,
+  abbr		= {PKC},
+  author    	= {Damiano Abram and Peter Scholl},
+  title     	= {{Low-Communication Multiparty Triple Generation for SPDZ from Ring-LPN}},
+  booktitle	= {{Public-Key Cryptography -- PKC 2022}},
+  year      	= {2022},
+  pdf		= {https://eprint.iacr.org/2022/315},
+  abstract	= {The SPDZ protocol for multi-party computation relies on a correlated randomness setup consisting of authenticated, multiplication triples. A recent line of work by Boyle et al. (Crypto 2019, Crypto 2020) has investigated the possibility of producing this correlated randomness in a silent preprocessing phase, which involves a ``small'' setup protocol with less communication than the total size of the triples being produced. These works do this using a tool called a pseudorandom correlation generator (PCG), which allows a large batch of correlated randomness to be compressed into a set of smaller, correlated seeds. However, existing methods for compressing SPDZ triples only apply to the 2-party setting.
+  In this work, we construct a PCG for producing SPDZ triples over large prime fields in the multi-party setting. The security of our PCG is based on the ring-LPN assumption over fields, similar to the work of Boyle et al. (Crypto 2020) in the 2-party setting. We also present a corresponding, actively secure setup protocol, which can be used to generate the PCG seeds and instantiate SPDZ with a silent preprocessing phase. As a building block, which may be of independent interest, we construct a new type of 3-party distributed point function supporting outputs over arbitrary groups (including large prime order), as well as an efficient protocol for setting up our DPF keys with active security.}
 }
 
 
-@inproceedings{TCC:ABIKN23,
-  abbr = {TCC},
-  author    = {Damiano Abram and Amos Beimel and Yuval Ishai and Eyal Kushilevits and Varun Narayanan},
-  title     = {{Cryptography from Planted Graphs: Security with Logarithmic-Size Messages}},
-   booktitle="Theory of Cryptography Conference -- TCC 2023",
-  publisher = {Springer},
-  year      = {2023},
-  pdf    = {https://eprint.iacr.org/2023/1929},
-  abstract={We tackle the following broad question about cryptographic primitives: is it possible to achieve security against arbitrary <em>poly(n)</em> circuit-size adversaries with <em>O(log n)</em> size messages? It is common knowledge that the answer is  unless information-theoretic security is possible. In this work, we revisit this question by considering the setting of cryptography with public information and computational security.
+@inproceedings{ABIKN23,
+  abbr 	= {TCC},
+  author    	= {Damiano Abram and Amos Beimel and Yuval Ishai and Eyal Kushilevits and Varun Narayanan},
+  title     	= {{Cryptography from Planted Graphs: Security with Logarithmic-Size Messages}},
+  booktitle	= {{Theory of Cryptography Conference -- TCC 2023}},
+  year      	= {2023},
+  pdf    	= {https://eprint.iacr.org/2023/1929},
+  abstract	= {We tackle the following broad question about cryptographic primitives: is it possible to achieve security against arbitrary <em>poly(n)</em> circuit-size adversaries with <em>O(log n)</em> size messages? It is common knowledge that the answer is  unless information-theoretic security is possible. In this work, we revisit this question by considering the setting of cryptography with public information and computational security.
 Our main results include the following:<br>
 <p style="margin-left: 25px;">
 1. For the task of constructing protocols in the Private Simultaneous Message (PSM) model. We show that <em>O(log n)</em> bits suffice if we allow public information and computational security.</p>
@@ -102,31 +77,29 @@ Our main results include the following:<br>
 2. For the task of 3-party MPC, where 2 parties have inputs and the third party receive the output, we present a protocol with an offline stage that produces shared randomness for the input parties and public information, followed by a one-round protocol after receiving the input (a single message from each input party to the output party) with very short, i.e. <em>O(log n)</em> bits, online communication. Previously known solutions (even allowing correlated randomness) used at least two rounds of communication.</p>
 <p style="margin-left: 25px;">
 3. For the task of constructing so-called  Forbidden Graph Secret-Sharing, the best known computational scheme without public information has share size <em>poly(n)</em> (assuming one-way functions). We present a computational Forbidden Graph Secret-Sharing scheme with public information and share size of only <em>O(log n)</em>. On the negative side, we show that computational threshold secret-sharing schemes even with public information require share size <em>\Omega(log log n)</em>.</p><p>
-Our constructions are based on the conjectured hardness of variants of the planted clique problem, that was extensively studied in the Complexity Theory and Statistical Inference communications but was less commonly used in Crypto. We believe that such conjectures have the potential of finding other cryptographic applications.</p>},
+Our constructions are based on the conjectured hardness of variants of the planted clique problem, that was extensively studied in the Complexity Theory and Statistical Inference communications but was less commonly used in Crypto. We believe that such conjectures have the potential of finding other cryptographic applications.</p>}
 }
 
 
-@inproceedings{C:AbrWatZha23,
-  abbr = {C},
-  author    = {Damiano Abram and Brent Waters and Mark Zhandry},
-  title     = {{Security-Preserving Distributed Samplers: How to Generate any CRS in One Round without Random Oracles}},
-  booktitle="CRYPTO 2023",
-  publisher = {Springer},
-  year      = {2023},
-  pdf    = {https://eprint.iacr.org/2023/860},
-  abstract={A distributed sampler is a way for several mutually distrusting parties to non-interactively generate a common reference string (CRS) that all parties trust. Previous work constructs distributed samplers in the random oracle model, or in the standard model with very limited security guarantees. This is no accident, as standard model distributed samplers with full security were shown impossible.
-In this work, we provide new definitions for distributed samplers which we show achieve meaningful security guarantees in the standard model. In particular, our notion implies that the hardness of a wide range of security games is preserved when the CRS is replaced with a distributed sampler. We also show how to realize our notion of distributed samplers. A core technical tool enabling our construction is a new notion of single-message zero knowledge.},
+@inproceedings{AbrWatZha23,
+  abbr 	= {C},
+  author    	= {Damiano Abram and Brent Waters and Mark Zhandry},
+  title     	= {{Security-Preserving Distributed Samplers: How to Generate any CRS in One Round without Random Oracles}},
+  booktitle	= {{CRYPTO 2023}},
+  year      	= {2023},
+  pdf    	= {https://eprint.iacr.org/2023/860},
+  abstract	= {A distributed sampler is a way for several mutually distrusting parties to non-interactively generate a common reference string (CRS) that all parties trust. Previous work constructs distributed samplers in the random oracle model, or in the standard model with very limited security guarantees. This is no accident, as standard model distributed samplers with full security were shown impossible.
+In this work, we provide new definitions for distributed samplers which we show achieve meaningful security guarantees in the standard model. In particular, our notion implies that the hardness of a wide range of security games is preserved when the CRS is replaced with a distributed sampler. We also show how to realize our notion of distributed samplers. A core technical tool enabling our construction is a new notion of single-message zero knowledge.}
 }
 
 
-@inproceedings{EC:ADIN24,
-  abbr = {EC},
-  author    = {Damiano Abram and Jack Doerner and Yuval Ishai and Varun Narayanan},
-  title     = {{Constant-Round Simulation-Secure Coin Tossing Extention with Guaranteed Output}},
-   booktitle="EUROCRYPT 2024",
-  publisher = {Springer},
-  year      = {2024},
-  abstract={Common randomness is an essential resource in many applications. However, a celebrated result of Cleve (STOC 86) rules out the possibility of tossing a fair coin from scratch in the presence of a dishonest majority. A second-best alternative is a Coin Tossing Extension (CTE) protocol, which uses an “online” oracle that produces a small number of common random bits to generate a large number of common random-looking bits. This work initiates the systematic study of fully-secure CTE, which guarantees output even in the presence of malicious behavior. A fully-secure two-party statistical CTE protocol with black-box simulation was implicit in Hofheinz et al. (Eurocrypt 06), but its round complexity is nearly linear in its output length. The problem of
+@inproceedings{ADIN24,
+  abbr 	= {EC},
+  author    	= {Damiano Abram and Jack Doerner and Yuval Ishai and Varun Narayanan},
+  title     	= {{Constant-Round Simulation-Secure Coin Tossing Extention with Guaranteed Output}},
+  booktitle	= {{EUROCRYPT 2024}},
+  year      	= {2024},
+  abstract	= {Common randomness is an essential resource in many applications. However, a celebrated result of Cleve (STOC 86) rules out the possibility of tossing a fair coin from scratch in the presence of a dishonest majority. A second-best alternative is a Coin Tossing Extension (CTE) protocol, which uses an “online” oracle that produces a small number of common random bits to generate a large number of common random-looking bits. This work initiates the systematic study of fully-secure CTE, which guarantees output even in the presence of malicious behavior. A fully-secure two-party statistical CTE protocol with black-box simulation was implicit in Hofheinz et al. (Eurocrypt 06), but its round complexity is nearly linear in its output length. The problem of
 constant-round CTE with superlogarithmic stretch remained open.
 We prove that any statistical CTE with full black-box security and superlogarithmic stretch must have superconstant rounds. To circumvent this impossibility we investigate fully-secure computational CTE, and prove that with <em>N</em> parties and any polynomial stretch:<br>
 <p style="margin-left: 25px;">
@@ -136,24 +109,23 @@ We prove that any statistical CTE with full black-box security and superlogarith
 <p style="margin-left: 25px;">
 3. One-way functions imply CTE with <em>O(N)</em> rounds, and thus constant-round CTE for any constant number of parties.</p>
 <p>Such results were not known even in the two-party setting with standalone, static security. Furthermore, we extend one-round CTE to sample from any efficient distribution, via strong assumptions that include indistinguishability obfuscation.
-Our one-round CTE protocols can be interpreted as explainable variants of classical randomness extractors, wherein a (short) seed and a source instance can be efficiently reverse-sampled given a random output. Such explainable extractors may be of independent interest.</p>},
+Our one-round CTE protocols can be interpreted as explainable variants of classical randomness extractors, wherein a (short) seed and a source instance can be efficiently reverse-sampled given a random output. Such explainable extractors may be of independent interest.</p>}
 }
 
 
-@inproceedings{EC:AbrRoySch24,
-  abbr = {EC},
-  author    = {Damiano Abram and Lawrence Roy and Peter Scholl},
-  title     = {{Succinct Homomorphic Secret Sharing}},
-   booktitle="EUROCRYPT 2024",
-  publisher = {Springer},
-  year      = {2024},
-  pdf	    = {https://eprint.iacr.org/2024/814},
-  abstract={This work introduces homomorphic secret sharing (HSS) with succinct share size. In HSS, private inputs are shared between parties, who can then homomorphically evaluate a function on their shares, obtaining a share of the function output. In succinct HSS, a portion of the inputs from one party can be distributed using shares whose size is sublinear in the number of such inputs. The parties can then locally evaluate a function <em>f</em> on the shares, with the restriction that <em>f</em> must be linear in the succinctly shared inputs.
+@inproceedings{AbrRoySch24,
+  abbr 	= {EC},
+  author    	= {Damiano Abram and Lawrence Roy and Peter Scholl},
+  title     	= {{Succinct Homomorphic Secret Sharing}},
+  booktitle	= {{EUROCRYPT 2024}},
+  year      	= {2024},
+  pdf	    	= {https://eprint.iacr.org/2024/814},
+  abstract	= {This work introduces homomorphic secret sharing (HSS) with succinct share size. In HSS, private inputs are shared between parties, who can then homomorphically evaluate a function on their shares, obtaining a share of the function output. In succinct HSS, a portion of the inputs from one party can be distributed using shares whose size is sublinear in the number of such inputs. The parties can then locally evaluate a function <em>f</em> on the shares, with the restriction that <em>f</em> must be linear in the succinctly shared inputs.
 We construct succinct, two-party HSS for branching programs, based on either the decisional composite residuosity assumption, a DDH-like assumption in class groups, or learning with errors with a superpolynomial modulus-to-noise ratio. We then give several applications of succinct HSS, which were only previously known using fully homomorphic encryption, or stronger tools:<br>
 <p style="margin-left: 25px;">
 1. <b>Succinct vector oblivious linear evaluation (VOLE):</b> Two parties can obtain secret shares of a long, arbitrary vector <em><b>x</b></em>, multiplied by a scalar <em>\Delta</em>, with communication sublinear in the size of the vector.</p>
 <p style="margin-left: 25px;">
 2. <b>Batch, multi-party distributed point functions:</b> A protocol for distributing a batch of secret, random point functions among <em>N</em> parties, for any polynomial <em>N</em>, with communication sublinear in the number of DPFs.</p>
 <p style="margin-left: 25px;">
-3. <b>Sublinear MPC for any number of parties:</b> Two new constructions of MPC with sublinear communication complexity, with <em>N</em> parties for any polynomial <em>N</em>: (a) For general Boolean circuits of size <em>s</em>, with communication <em>O(N s/ log log s)</em>, and (b) For layered, sufficiently wide Boolean circuits, with communication <em>O(N s/ log s)</em>.</p>},
+3. <b>Sublinear MPC for any number of parties:</b> Two new constructions of MPC with sublinear communication complexity, with <em>N</em> parties for any polynomial <em>N</em>: (a) For general Boolean circuits of size <em>s</em>, with communication <em>O(N s/ log log s)</em>, and (b) For layered, sufficiently wide Boolean circuits, with communication <em>O(N s/ log s)</em>.</p>}
 }
