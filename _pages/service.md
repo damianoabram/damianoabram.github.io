@@ -1,7 +1,7 @@
 ---
 layout: page
-permalink: /service/
-title: academic service
+permalink: /academic_service/
+title: service
 description: 
 nav: true
 nav_order: 4
@@ -26,7 +26,7 @@ nav_order: 4
 
   <article>
   <div class="publications">
-  {% bibliography -f reviewer %}
+  {% bibliography -f reviews %}
 </div>
   </article>
 
