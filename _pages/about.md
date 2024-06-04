@@ -14,9 +14,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a <b>PhD student</b> in the <b> [Crypto Group](https://cs.au.dk/~orlandi/cryptogroup/) </b> at <b>Aarhus University</b> (since August 2020). I am supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/).
+I am a <b>postdoctoral researcher</b> in the <b> [Cryptography Group](https://rosenalon.github.io/cifra/#) </b> at <b>Bocconi University</b> (since June 2024), hosted by [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). 
 
 My research focuses on <b>theoretical aspects of cryptography</b>. Among my main interests are <b>multiparty computation with minimal interaction</b> (non-interactive MPC, homomorphic secret-sharing, pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs) and distributed samplers), <b>advanced cryptographic primitives</b> (such as obfuscation and homomorphic encryption) and the study of security models, especially in their idealised forms.
+
+From August 2020 to June 2024, I was a PhD student in the <b> [Cryptography Group](https://users-cs.au.dk/orlandi/cryptogroup/) </b> at <b>Aarhus University</b>, where I was supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/). In my [PhD thesis](/assets/pdf/PhD_thesis_Abram.pdf), I studied non-interactive protocols for the secure generation of common randomness.
 
 From October 2022 to February 2023, I visited [Yuval Ishai](https://www.cs.technion.ac.il/~yuvali/) at Technion, Haifa.
 From June to August 2022, I worked as an intern at NTT Research (USA) under the supervision of [Mark Zhandry](https://mzhandry.github.io/).
