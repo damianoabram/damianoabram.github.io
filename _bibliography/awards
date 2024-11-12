@@ -3,8 +3,8 @@
 
 @inproceedings{Simons2025,
   abbr		= {Simons},
-  title     	= {Simons Institute for the Theory of Computing </b> <br>
-<i>Cryptography 10 Years Later: Obfuscation, Proof Systems, and Secure Computation</i><b>},
+  title     	= {Simons Institute for the Theory of Computing <br>
+<i>Cryptography 10 Years Later: Obfuscation, Proof Systems, and Secure Computation</i>},
   booktitle 	= {UC Berkeley},
   author	= {Postdoctoral Fellowship},
   year		= {2025}
