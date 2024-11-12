@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a <b>postdoctoral researcher</b> in the <b> [Cryptography Group](https://rosenalon.github.io/cifra/#) </b> at <b>Bocconi University</b> (since June 2024), hosted by [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). 
+I am a <b>postdoctoral researcher</b> in the <b> [Cryptography Group](https://rosenalon.github.io/cifra/#) </b> at <b>Bocconi University</b> (since June 2024), hosted by [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). I was recently awarded a [Simons Institute](https://simons.berkeley.edu/homepage) postoctoral fellowship for the summer 2025 program [Cryptography 10 Years Later: Obfuscation, Proof Systems, and Secure Computation](https://simons.berkeley.edu/programs/cryptography-10-years-later-obfuscation-proof-systems-secure-computation).
 
 My research focuses on <b>theoretical aspects of cryptography</b>. Among my main interests are <b>multiparty computation with minimal interaction</b> (non-interactive MPC, homomorphic secret-sharing, pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs) and distributed samplers), <b>advanced cryptographic primitives</b> (such as obfuscation and homomorphic encryption) and the study of security models, especially in their idealised forms.
 
