@@ -133,10 +133,11 @@ We construct succinct, two-party HSS for branching programs, based on either the
 @inproceedings{AbrMalRoy25,
   abbr 	= {STOC},
   author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
-  title     	= {{Oblivious Tensor Evaluation and Applications}},
+  title     	= {{Succinct Oblivious Tensor Evaluation and Applications: Adaptively-Secure Laconic Function Evaluation and Trapdoor
+Hashing for All Circuits}},
   booktitle	= {{STOC 2025}},
   year      	= {2025},
-  abstract	= {We propose the notion of oblivious tensor evaluation (OTE), where two parties compute an additive secret sharing of a tensor product of two vectors $<b>x</b>\otimes <b>y</b>$, exchanging two simultaneous messages. Crucially, the size of both messages is independent of the dimension of $<b>x</b>$. 
+  abstract	= {We propose the notion of succinct oblivious tensor evaluation (OTE), where two parties compute an additive secret sharing of a tensor product of two vectors $<b>x</b>\otimes <b>y</b>$, exchanging two simultaneous messages. Crucially, the size of both messages and of the CRS is independent of the dimension of $<b>x</b>$. 
     We present a construction of OTE with optimal complexity from the standard learning with errors (LWE) problem. Then we show how this new technical tool enables a host of cryptographic primitives, all with security reducible to LWE, such as:
     <p style="margin-left: 25px;">
     1. Adaptively secure laconic function evaluation for depth-$D$ functions<br> $f:\{0, 1\}<sup>m</sup>\rightarrow \{0, 1\}<sup>L</sup>$ with communication $m+L+D\cdot poly(\lambda)$.</p>
