@@ -31,10 +31,10 @@ Our work puts time-based cryptography on a firmer theoretical footing, provides 
   abstract	= {We propose a new method to construct a public-key encryption scheme, where one can homomorphically transform a ciphertext encrypted under a key
  $<b>x</b>$ into a ciphertext under $(P, P(<b>x</b>))$, for any polynomial-time RAM program $P: <b>x</b>\mapsto <b>y</b>$ with runtime $T$ and memory $L$. Combined with other lattice techniques, this allows us to construct:
     <p style="margin-left: 25px;">
-    1. Succinct-randomised encodings from RAM programs with encoder complexity $(\lvert <b>x</b>\rvert+\lvert <b>y</b>\rvert) \cdot poly(\log T, \log L)$ and rate-1 encodings.</p>
+    1. Succinct-randomised encodings from RAM programs with encoder complexity $(|<b>x</b>|+ |<b>y</b>|) \cdot poly(log T, log L)$ and rate-1 encodings.</p>
     <p style="margin-left: 25px;">
-    2. Laconic function evaluation for RAM programs, with encoder runtime bounded by $(\lvert <b>x</b>\rvert+\lvert <b>y</b>\rvert) \cdot poly(\log T, \log L)$ and rate-1 encodings.</p>
+    2. Laconic function evaluation for RAM programs, with encoder runtime bounded by $(|<b>x</b>|+ |<b>y</b>|) \cdot poly(log T, log L)$ and rate-1 encodings.</p>
     <p style="margin-left: 25px;">
     3. Key-policy attribute-based encryption for RAM programs, with ciphertexts of size $O(T)$. The same scheme can be converted to the register setting, obtaining linear CRS size in the number of parties.</p>
-    <p>All of our schemes rely on the hardness of the decomposed learning with errors (LWE) problem, along with other standard computational assumptions on lattices. The decomposed LWE problem can be interpreted as postulating the circular-security of a natural lattice-based public-key encryption scheme. To gain confidence in the assumption, we show that it is implied by the hardness of the succinct LWE problem of Wee (CRYPTO'24).</p>}
+    <p>All of our schemes rely on the hardness of the <em>decomposed learning with errors</em> (LWE) problem, along with other standard computational assumptions on lattices. The decomposed LWE problem can be interpreted as postulating the circular-security of a natural lattice-based public-key encryption scheme. To gain confidence in the assumption, we show that it is implied by the hardness of the succinct LWE problem of Wee (CRYPTO'24).</p>}
 }
