@@ -21,3 +21,20 @@ Secondly, we study the question of building distributed samplers in the party-dy
 In this work, we make progress on several fronts. We formally define the concept of a delay function and present a construction thereof from minimal assumptions. We show that these functions, in combination with classical cryptographic objects that satisfy certain efficiency criteria, would allow for constructing delay encryption, which is otherwise only known to exist based on a new hardness assumption about isogenies. We formally define randomness beacons as they are used in the context of blockchains, and we show that (linearly homomorphic) time-lock puzzles allow for efficiently constructing them. 
 Our work puts time-based cryptography on a firmer theoretical footing, provides new constructions from simpler assumptions, and opens new avenues for constructing delay encryption.}}
 }
+
+@inproceedings{AbrMalRoy25,
+  abbr 	= {ePrint},
+  author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
+  title     	= {{Key-Homomorphic Computations for RAM: Fully Succinct Randomised Encodings and More}},
+  year      	= {2025},
+  pdf	    	= {https://eprint.iacr.org/2025/339},
+  abstract	= {We propose a new method to construct a public-key encryption scheme, where one can homomorphically transform a ciphertext encrypted under a key
+ $<b>x</b>$ into a ciphertext under $(P, P(<b>x</b>))$, for any polynomial-time RAM program $P: <b>x</b>\mapsto <b>y</b>$ with runtime $T$ and memory $L$. Combined with other lattice techniques, this allows us to construct:
+    <p style="margin-left: 25px;">
+    1. Succinct-randomised encodings from RAM programs with encoder complexity $(\lvert <b>x</b>\rvert+\lvert <b>y</b>\rvert) \cdot poly(\log T, \log L)$ and rate-1 encodings.</p>
+    <p style="margin-left: 25px;">
+    2. Laconic function evaluation for RAM programs, with encoder runtime bounded by $(\lvert <b>x</b>\rvert+\lvert <b>y</b>\rvert) \cdot poly(\log T, \log L)$ and rate-1 encodings.</p>
+    <p style="margin-left: 25px;">
+    3. Key-policy attribute-based encryption for RAM programs, with ciphertexts of size $O(T)$. The same scheme can be converted to the register setting, obtaining linear CRS size in the number of parties.</p>
+    <p>All of our schemes rely on the hardness of the decomposed learning with errors (LWE) problem, along with other standard computational assumptions on lattices. The decomposed LWE problem can be interpreted as postulating the circular-security of a natural lattice-based public-key encryption scheme. To gain confidence in the assumption, we show that it is implied by the hardness of the succinct LWE problem of Wee (CRYPTO'24).</p>}
+}
