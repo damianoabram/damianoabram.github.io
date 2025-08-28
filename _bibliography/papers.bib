@@ -134,7 +134,8 @@ We construct succinct, two-party HSS for branching programs, based on either the
   abbr 	= {TCC},
   author    	= {Damiano Abram and Serge Fehr and Maciej Obremski and Peter Scholl},
   title     	= {{On the (Im)possibility of Distributed Samplers}},
-  year      	= {TCC 2025},
+  booktitle	= {{TCC 2025}},
+  year      	= {2025},
   pdf    	= {https://eprint.iacr.org/2023/863},
   abstract	= {One-round secure computation is generally believed impossible due to the <em>residual function attack</em>: any honest-but-curious participant can replay the protocol in their head changing their input, and learn, in this way, a new output. Inputless functionalities are among the few that are immune to this problem. 
 This paper studies one-round, multi-party computation protocols (MPC) that implement the most natural inputless functionality: one that generates a random sample from a fixed distribution. These are called <em>distributed samplers</em>. At Eurocrypt 2022, Abram, Scholl and Yakoubov showed how to build this primitive in the semi-honest model with dishonest majority. In this work, we give a lower bound for constructing distributed samplers with a malicious adversary in the standard model. More in detail, we show that for any construction in the stand-alone model with black-box simulation, even with a CRS and honest majority, the output of the sampling protocol must have low entropy. This essentially implies that this type of construction is useless in applications. Our proof is based on an entropic argument, drawing a new connection between computationally secure MPC, information theory and learning theory.}
@@ -145,7 +146,8 @@ This paper studies one-round, multi-party computation protocols (MPC) that imple
   abbr 	= {TCC},
   author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
   title     	= {{Slightly Sublinear Trapdoor Hash Functions and PIR from Low-Noise LPN}},
-  year      	= {TCC 2025},
+  booktitle	= {{TCC 2025}},
+  year      	= {2025},
   pdf	    	= {https://eprint.iacr.org/2025/416},
   abstract	= {Trapdoor hash functions (TDHs) are compressing hash functions, with an additional trapdoor functionality: Given an encoding key for a function $f$, a hash on $x$ together with a (small) input encoding allow one to recover $f(x)$. TDHs are a versatile tool and a useful building block for more complex cryptographic protocols.
 In this work, we propose the first TDH construction assuming the (quasi-polynomial) hardness of the LPN problem with noise rate $\epsilon = O(log<sup>1+\beta</sup>n / n)$ for $\beta>0$, i.e., in the so-called low-noise regime. The construction achieves $2<sup>\Theta(log<sup>1-\beta</sup>\lambda)</sup>$ compression factor. This is not enough to obtain NIZKs from LPN. Nevertheless, we obtain a private-information retrieval (PIR) with communication complexity $L / 2<sup>\Theta(log<sup>1-\beta</sup>L)</sup>$, for a database of size $L$. This is the first PIR scheme with non-trivial communication complexity (asymptotically smaller than $L$) from any code-based assumption.}
