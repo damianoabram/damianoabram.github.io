@@ -14,9 +14,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a <b>postdoctoral researcher</b> in the <b> [Cryptography Group](https://rosenalon.github.io/cifra/#) </b> at <b>Bocconi University</b> (since June 2024), hosted by [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). I have been recently awarded a [Simons Institute](https://simons.berkeley.edu/homepage) research fellowship for [the summer 2025 program on cryptography](https://simons.berkeley.edu/programs/cryptography-10-years-later-obfuscation-proof-systems-secure-computation).
+I am a <b>lecturer in cyber security</b> (British equivalent of <b>assistant professor</b>) at the University of Edinburgh. My research focuses on <b>theoretical aspects of cryptography</b>. Among my interests are <b>multiparty computation with minimal interaction</b> (non-interactive MPC, homomorphic secret-sharing and pseudorandom correlation generators), <b>advanced cryptographic primitives</b> (obfuscation, attribute-based encryption and homomorphic encryption), <b>lattice-based and code-based cryptography</b> and the study of security models, especially in their idealised forms.
 
-My research focuses on <b>theoretical aspects of cryptography</b>. Among my main interests are <b>multiparty computation with minimal interaction</b> (non-interactive MPC, homomorphic secret-sharing, pseudorandom correlation generators (PCGs), pseudorandom correlation functions (PCFs) and distributed samplers), <b>advanced cryptographic primitives</b> (such as obfuscation and homomorphic encryption) and the study of security models, especially in their idealised forms.
+From May 2025 to August 2025, I was a research fellow at the [Simons Institute](https://simons.berkeley.edu/homepage) for [the summer 2025 program on cryptography](https://simons.berkeley.edu/programs/cryptography-10-years-later-obfuscation-proof-systems-secure-computation).
+
+From June 2024 to May 2025, I was a <b>postdoctoral researcher</b> in the <b> [Cryptography Group](https://rosenalon.github.io/cifra/#) </b> at <b>Bocconi University</b>, hosted by [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). 
 
 From August 2020 to June 2024, I was a PhD student in the <b> [Cryptography Group](https://users-cs.au.dk/orlandi/cryptogroup/) </b> at <b>Aarhus University</b>, where I was supervised by [Peter Scholl](https://pascholl.github.io/) and [Ivan Damgård](https://cs.au.dk/~ivan/). In my [PhD thesis](/assets/pdf/PhD_thesis_Abram.pdf){:target="_blank"}, I studied non-interactive protocols for the secure generation of common randomness.
 
