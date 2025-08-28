@@ -18,7 +18,7 @@ I am a <b>Lecturer in Cyber Security</b> (British equivalent of <em>assistant pr
 
 My research focuses on <b>theoretical aspects of cryptography</b>. Among my interests are <b>multiparty computation with minimal interaction</b> (non-interactive MPC, homomorphic secret-sharing and pseudorandom correlation generators), <b>advanced cryptographic primitives</b> (obfuscation, attribute-based encryption and homomorphic encryption), <b>lattice-based and code-based cryptography</b> and the study of security models, especially in their idealised forms.
 
-From May 2025 to August 2025, I was a research fellow at the [Simons Institute](https://simons.berkeley.edu/homepage) for [the summer 2025 program on cryptography](https://simons.berkeley.edu/programs/cryptography-10-years-later-obfuscation-proof-systems-secure-computation).
+From May 2025 to August 2025, I was a <b>research fellow</b> at the Simons Institute for [the summer 2025 program on cryptography](https://simons.berkeley.edu/programs/cryptography-10-years-later-obfuscation-proof-systems-secure-computation).
 
 From June 2024 to May 2025, I was a <b>postdoctoral researcher</b> in the <b> [Cryptography Group](https://rosenalon.github.io/cifra/#) </b> at <b>Bocconi University</b>, hosted by [Giulio Malavolta](https://sites.google.com/view/giuliomalavolta/). 
 
