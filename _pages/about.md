@@ -14,7 +14,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a <b>Lecturer in Cyber Security</b> (British equivalent of <em>assistant professor</em>) at the [University of Edinburgh](https://www.ed.ac.uk/).
+I am a <b>Lecturer in Cyber Security</b> (British equivalent of <b>assistant professor</b>) at the [University of Edinburgh](https://www.ed.ac.uk/).
 
 My research focuses on <b>theoretical aspects of cryptography</b>. Among my interests are <b>multiparty computation with minimal interaction</b> (non-interactive MPC, homomorphic secret-sharing and pseudorandom correlation generators), <b>advanced cryptographic primitives</b> (obfuscation, attribute-based encryption and homomorphic encryption), <b>lattice-based and code-based cryptography</b> and the study of security models, especially in their idealised forms.
 
