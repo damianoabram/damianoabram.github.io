@@ -130,6 +130,45 @@ We construct succinct, two-party HSS for branching programs, based on either the
 3. <b>Sublinear MPC for any number of parties:</b> Two new constructions of MPC with sublinear communication complexity, with <em>N</em> parties for any polynomial <em>N</em>: (a) For general Boolean circuits of size <em>s</em>, with communication <em>O(N s/ log log s)</em>, and (b) For layered, sufficiently wide Boolean circuits, with communication <em>O(N s/ log s)</em>.</p>}
 }
 
+@inproceedings{AbrObrSch23,
+  abbr 	= {TCC},
+  author    	= {Damiano Abram and Serge Fehr and Maciej Obremski and Peter Scholl},
+  title     	= {{On the (Im)possibility of Distributed Samplers}},
+  year      	= {2025},
+  pdf    	= {https://eprint.iacr.org/2023/863},
+  abstract	= {One-round secure computation is generally believed impossible due to the <em>residual function attack</em>: any honest-but-curious participant can replay the protocol in their head changing their input, and learn, in this way, a new output. Inputless functionalities are among the few that are immune to this problem. 
+This paper studies one-round, multi-party computation protocols (MPC) that implement the most natural inputless functionality: one that generates a random sample from a fixed distribution. These are called <em>distributed samplers</em>. At Eurocrypt 2022, Abram, Scholl and Yakoubov showed how to build this primitive in the semi-honest model with dishonest majority. In this work, we give a lower bound for constructing distributed samplers with a malicious adversary in the standard model. More in detail, we show that for any construction in the stand-alone model with black-box simulation, even with a CRS and honest majority, the output of the sampling protocol must have low entropy. This essentially implies that this type of construction is useless in applications. Our proof is based on an entropic argument, drawing a new connection between computationally secure MPC, information theory and learning theory.}
+}
+
+
+@inproceedings{AbrMalRoy25b,
+  abbr 	= {TCC},
+  author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
+  title     	= {{Slightly Sublinear Trapdoor Hash Functions and PIR from Low-Noise LPN}},
+  year      	= {2025},
+  pdf	    	= {https://eprint.iacr.org/2025/416},
+  abstract	= {Trapdoor hash functions (TDHs) are compressing hash functions, with an additional trapdoor functionality: Given an encoding key for a function $f$, a hash on $x$ together with a (small) input encoding allow one to recover $f(x)$. TDHs are a versatile tool and a useful building block for more complex cryptographic protocols.
+In this work, we propose the first TDH construction assuming the (quasi-polynomial) hardness of the LPN problem with noise rate $\epsilon = O(log<sup>1+\beta</sup>n / n)$ for $\beta>0$, i.e., in the so-called low-noise regime. The construction achieves $2<sup>\Theta(log<sup>1-\beta</sup>\lambda)</sup>$ compression factor. This is not enough to obtain NIZKs from LPN. Nevertheless, we obtain a private-information retrieval (PIR) with communication complexity $L / 2<sup>\Theta(log<sup>1-\beta</sup>L)</sup>$, for a database of size $L$. This is the first PIR scheme with non-trivial communication complexity (asymptotically smaller than $L$) from any code-based assumption.}
+}
+
+@inproceedings{AbrMalRoy25,
+  abbr 	= {C},
+  author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
+  title     	= {{Key-Homomorphic Computations for RAM: Fully Succinct Randomised Encodings and More}},
+  booktitle	= {{CRYPTO 2025}},
+  year      	= {2025},
+  pdf	    	= {https://eprint.iacr.org/2025/339},
+  abstract	= {We propose a new method to construct a public-key encryption scheme, where one can homomorphically transform a ciphertext encrypted under a key
+ $<b>x</b>$ into a ciphertext under $(P, P(<b>x</b>))$, for any polynomial-time RAM program $P: <b>x</b> &#8614 <b>y</b>$ with runtime $T$ and memory $L$. Combined with other lattice techniques, this allows us to construct:
+    <p style="margin-left: 25px;">
+    1. Succinct-randomised encodings from RAM programs with encoder complexity $(|<b>x</b>|+ |<b>y</b>|) \cdot poly(log T, log L)$ and rate-1 encodings.</p>
+    <p style="margin-left: 25px;">
+    2. Laconic function evaluation for RAM programs, with encoder runtime bounded by $(|<b>x</b>|+ |<b>y</b>|) \cdot poly(log T, log L)$ and rate-1 encodings.</p>
+    <p style="margin-left: 25px;">
+    3. Key-policy attribute-based encryption for RAM programs, with ciphertexts of size $O(T)$. The same scheme can be converted to the register setting, obtaining linear CRS size in the number of parties.</p>
+    <p>All of our schemes rely on the hardness of the <em>decomposed learning with errors</em> (LWE) problem, along with other standard computational assumptions on lattices. The decomposed LWE problem can be interpreted as postulating the circular-security of a natural lattice-based public-key encryption scheme. To gain confidence in the assumption, we show that it is implied by the hardness of the succinct LWE problem of Wee (CRYPTO'24).</p>}
+}
+
 @inproceedings{AbrMalRoy25,
   abbr 	= {STOC},
   author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
@@ -150,45 +189,5 @@ Hashing for All Circuits}},
     4. A rate-1/2 laconic oblivious transfer for batch messages, which is best possible.</p>
     <p>In particular, we obtain the first laconic function evaluation scheme that is adaptively secure from the standard LWE assumption, improving upon Quach, Wee, and Wichs (FOCS 2018). 
     As a key technical ingredient, we introduce a new notion of <em>adaptive lattice encodings</em>, which may be of independent interest.</p>}
-}
-
-
-@inproceedings{AbrMalRoy25,
-  abbr 	= {C},
-  author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
-  title     	= {{Key-Homomorphic Computations for RAM: Fully Succinct Randomised Encodings and More}},
-  booktitle	= {{CRYPTO 2025}},
-  year      	= {2025},
-  pdf	    	= {https://eprint.iacr.org/2025/339},
-  abstract	= {We propose a new method to construct a public-key encryption scheme, where one can homomorphically transform a ciphertext encrypted under a key
- $<b>x</b>$ into a ciphertext under $(P, P(<b>x</b>))$, for any polynomial-time RAM program $P: <b>x</b> &#8614 <b>y</b>$ with runtime $T$ and memory $L$. Combined with other lattice techniques, this allows us to construct:
-    <p style="margin-left: 25px;">
-    1. Succinct-randomised encodings from RAM programs with encoder complexity $(|<b>x</b>|+ |<b>y</b>|) \cdot poly(log T, log L)$ and rate-1 encodings.</p>
-    <p style="margin-left: 25px;">
-    2. Laconic function evaluation for RAM programs, with encoder runtime bounded by $(|<b>x</b>|+ |<b>y</b>|) \cdot poly(log T, log L)$ and rate-1 encodings.</p>
-    <p style="margin-left: 25px;">
-    3. Key-policy attribute-based encryption for RAM programs, with ciphertexts of size $O(T)$. The same scheme can be converted to the register setting, obtaining linear CRS size in the number of parties.</p>
-    <p>All of our schemes rely on the hardness of the <em>decomposed learning with errors</em> (LWE) problem, along with other standard computational assumptions on lattices. The decomposed LWE problem can be interpreted as postulating the circular-security of a natural lattice-based public-key encryption scheme. To gain confidence in the assumption, we show that it is implied by the hardness of the succinct LWE problem of Wee (CRYPTO'24).</p>}
-}
-
-@inproceedings{AbrObrSch23,
-  abbr 	= {TCC},
-  author    	= {Damiano Abram and Serge Fehr and Maciej Obremski and Peter Scholl},
-  title     	= {{On the (Im)possibility of Distributed Samplers}},
-  year      	= {2025},
-  pdf    	= {https://eprint.iacr.org/2023/863},
-  abstract	= {One-round secure computation is generally believed impossible due to the <em>residual function attack</em>: any honest-but-curious participant can replay the protocol in their head changing their input, and learn, in this way, a new output. Inputless functionalities are among the few that are immune to this problem. 
-This paper studies one-round, multi-party computation protocols (MPC) that implement the most natural inputless functionality: one that generates a random sample from a fixed distribution. These are called <em>distributed samplers</em>. At Eurocrypt 2022, Abram, Scholl and Yakoubov showed how to build this primitive in the semi-honest model with dishonest majority. In this work, we give a lower bound for constructing distributed samplers with a malicious adversary in the standard model. More in detail, we show that for any construction in the stand-alone model with black-box simulation, even with a CRS and honest majority, the output of the sampling protocol must have low entropy. This essentially implies that this type of construction is useless in applications. Our proof is based on an entropic argument, drawing a new connection between computationally secure MPC, information theory and learning theory.}
-}
-
-
-@inproceedings{AbrMalRoy25b,
-  abbr 	= {TCC},
-  author    	= {Damiano Abram and Giulio Malavolta and Lawrence Roy},
-  title     	= {{Slightly Sublinear Trapdoor Hash Functions and PIR from Low-Noise LPN}},
-  year      	= {2025},
-  pdf	    	= {https://eprint.iacr.org/2025/416},
-  abstract	= {Trapdoor hash functions (TDHs) are compressing hash functions, with an additional trapdoor functionality: Given an encoding key for a function $f$, a hash on $x$ together with a (small) input encoding allow one to recover $f(x)$. TDHs are a versatile tool and a useful building block for more complex cryptographic protocols.
-In this work, we propose the first TDH construction assuming the (quasi-polynomial) hardness of the LPN problem with noise rate $\epsilon = O(log<sup>1+\beta</sup>n / n)$ for $\beta>0$, i.e., in the so-called low-noise regime. The construction achieves $2<sup>\Theta(log<sup>1-\beta</sup>\lambda)</sup>$ compression factor. This is not enough to obtain NIZKs from LPN. Nevertheless, we obtain a private-information retrieval (PIR) with communication complexity $L / 2<sup>\Theta(log<sup>1-\beta</sup>L)</sup>$, for a database of size $L$. This is the first PIR scheme with non-trivial communication complexity (asymptotically smaller than $L$) from any code-based assumption.}
 }
 
