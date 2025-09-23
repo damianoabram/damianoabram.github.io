@@ -29,5 +29,5 @@ From June to August 2022, I worked as an intern at NTT Research (USA) under the 
 
 In 2020, I earned a <b>master's degree in mathematics</b> from the University of Trento (Italy), graduating with honours. The studies were focused on cryptography and coding theory. The master thesis, titled <em><b>Oblivious TLS via Multiparty Computation</b></em>, was supervised by Ivan Damgård, Sven Trieflinger and Roberto Zunino.
 
-In 2017, I obtained a <b>bachelor's degree in mathematics</b> from the University of Padova (Italy), graduating with honours. The bachelor thesis, concerning Wiener's attack against RSA, was supervised by Alberto Tonolo.
+In 2017, I obtained a <b>bachelor's degree in mathematics</b> from the University of Padova (Italy), graduating with honours. The bachelor thesis, concerning Wiener's attack against RSA, was supervised by Alberto Tonolo. 
 
