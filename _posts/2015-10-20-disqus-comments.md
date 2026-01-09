@@ -1,12 +1,12 @@
 ---
 layout: post
-title: a post with disqus comments
-date: 2015-10-20 11:59:00-0400
-description: an example of a blog post with disqus comments
-tags: comments
-categories: sample-posts external-services
-disqus_comments: true
+title: PhD Position
+date: 2026-01-09 11:59:00-0400
+description: 
+tags: 
+categories:
+disqus_comments: false
 related_posts: false
 ---
 
-This post shows how to add DISQUS comments.
+I am looking for students interested in working on theoretical aspects of cryptography as part of a fully funded PhD position at the University of Edinburgh.
