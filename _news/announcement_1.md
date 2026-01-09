@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I am looking for PhD students that are interested in working on theoretical aspects of cryptography.
