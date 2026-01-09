@@ -9,4 +9,4 @@ disqus_comments: false
 related_posts: false
 ---
 
-I am looking for students interested in working on theoretical aspects of cryptography as part of a fully funded PhD position at the University of Edinburgh.
+I am looking for students interested in working on theoretical aspects of cryptography as part of a fully funded PhD position at the University of Edinburgh. Don't hesitate to get in contanct with me if you are interested.
