@@ -1,6 +1,6 @@
 ---
 layout: post
-title: PhD Position
+title: Open PhD Position
 date: 2026-01-09 11:59:00-0400
 description: 
 tags: 
