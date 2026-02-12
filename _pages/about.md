@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description:
+description: 
 subtitle: <a href="mailto:abram.damiano@protonmail.com" title="email"><i class="fas fa-envelope"></i></a> abram.damiano@protonmail.com
 profile:
   align: right
